@@ -15,3 +15,6 @@ class Solution {
 }
 //time complexity: O(log10(n)). We divided the input by 10 for every iteration, so the time complexity isO(log10(n))
 //space complexity:O(1)
+// Example 1:
+// Input: 121
+// Output: true
