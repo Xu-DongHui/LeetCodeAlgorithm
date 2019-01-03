@@ -1,8 +1,8 @@
 class Solution {
-    public int reverse(int x) {//当x为任意int值时，要考虑int的内存溢出问题
+    public int reverse(int x) {//当x为任意int值时，要考虑int转置后的内存溢出问题
         int rev = 0;
         while (x != 0) {
-            int pop = x % 10;//Java中的余数可以为负数
+            int pop = x % 10;//Java中的余数可以为负数:(-11)%3=-2
             x /= 10;
             //rev不能溢出int的内存，因此不能rev > Integer.MAX_VALUE/10，或者，当rev == Integer.MAX_VALUE / 10时，即rev=214748364时,不能pop > 7
             if (rev > Integer.MAX_VALUE/10 || (rev == Integer.MAX_VALUE / 10 && pop > 7)) return 0;
@@ -20,4 +20,14 @@ Integer.MIN_VALUE= -2147483648 （-2的31次方）；Integer.MAX_VALUE= 21474836
 MAX_VALUE  + 1 == MIN_VALUE 
 二进制系统是通过补码来保存数据的。
 第一位是符号位，0为正，1为负，当正的除了符号位全为1，再加1就进位了，符号位就会变成1，是负数，其他为0。
+*/
+//对于整数的pop操作和push操作为：
+/*
+//pop operation:
+pop = x % 10;
+x /= 10;
+
+//push operation:
+temp = rev * 10 + pop;
+rev = temp;
 */
