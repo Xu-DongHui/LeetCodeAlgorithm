@@ -29,3 +29,30 @@ class Solution {
         return "";
     }
 }
+/*筛选出字符数组中各字符的共同子字符
+class Solution {
+	    public String longestCommonPrefix(String[] strs) {
+	        if(strs.length == 0) {
+	             return "";
+	        }
+	        if(strs.length == 1) {
+	             return strs[0];
+	        }i
+	        String s = strs[0];
+	        for(int i = 0; i < s.length(); i++) {
+	            for(int k = s.length(); k > i ; k--) {
+	                String subS = s.substring(i,k);
+	                int sum =0;
+	                for(int j = 1; j < strs.length; j++) {
+	                    if(strs[j].indexOf(subS) != -1){
+	                        sum++;
+	                    }
+	                }
+	                if(sum == strs.length-1) {
+	                    return subS;
+	                }
+	            } 
+	        }
+	        return "";
+	    }
+	}*/
