@@ -52,7 +52,10 @@ public class Trie {// the trie comprise the many trienode,such as 26
 		StringBuilder prefix = new StringBuilder();
 		for(int i = 0; i < word.length(); i++) {
 			char currentChar = word.charAt(i);
-			if(node.containsKey(currentChar) && node.getSize() == 1) {
+			//prefix satisfies the following conditions:
+			//1.each node along with the path contains only one childeren node
+			//2.the path doesn't comprise of nodes which are marked as an end of key. For example{"flower","flow","flo"}
+			if(node.containsKey(currentChar) && node.getSize() == 1 && !node.isEnd()) {
 				prefix.append(currentChar);
 				node = node.get(currentChar);
 			}else {
