@@ -4,4 +4,7 @@ problem 1.Given an array of integers, return indices of the two numbers such tha
 problem 2.Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
 
  Valid Parentheses   
- Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+ Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.    
+     
+Longest Substring Without Repeating Characters    
+Given a string, find the length of the longest substring without repeating characters.
