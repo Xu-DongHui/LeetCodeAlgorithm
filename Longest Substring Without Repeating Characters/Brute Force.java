@@ -1,4 +1,4 @@
-public class Solution {//时间复杂度高O(n2)
+public class Solution {//时间复杂度高O(n3)
     public int lengthOfLongestSubstring(String s) {
         int n = s.length();
         int ans = 0;
