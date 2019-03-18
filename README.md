@@ -11,3 +11,6 @@ Given a string, find the length of the longest substring without repeating chara
 
 Median of Two Sorted Arrays   
 There are two sorted arrays nums1 and nums2 of size m and n respectively.Find the median of the two sorted arrays. The overall run time complexity should be O(log (m+n)).You may assume nums1 and nums2 cannot be both empty.
+
+Divide Two Integers   
+Given two integers dividend and divisor, divide two integers without using multiplication, division and mod operator.Return the quotient after dividing dividend by divisor.
