@@ -14,3 +14,7 @@ There are two sorted arrays nums1 and nums2 of size m and n respectively.Find th
 
 Divide Two Integers   
 Given two integers dividend and divisor, divide two integers without using multiplication, division and mod operator.Return the quotient after dividing dividend by divisor.
+   
+Maximum Subarray
+Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
+
