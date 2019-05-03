@@ -18,3 +18,5 @@ Given two integers dividend and divisor, divide two integers without using multi
 Maximum Subarray   
 Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
 
+ZigZag Conversion   
+The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows
