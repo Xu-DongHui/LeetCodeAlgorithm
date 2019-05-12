@@ -20,3 +20,6 @@ Given an integer array nums, find the contiguous subarray (containing at least o
 
 ZigZag Conversion   
 The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows
+
+String to Integer (atoi)   
+Implement atoi which converts a string to an integer.
