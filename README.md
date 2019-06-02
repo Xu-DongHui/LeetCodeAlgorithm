@@ -22,4 +22,12 @@ ZigZag Conversion
 The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows
 
 String to Integer (atoi)   
-Implement atoi which converts a string to an integer.
+Implement atoi which converts a string to an integer.   
+
+Regular Expression Matching   
+Given an input string (s) and a pattern (p), implement regular expression matching with support for '.' and '*'.    
+
+Container With Most Water   
+Given n non-negative integers a1, a2, ..., an , where each represents a point at coordinate (i, ai). n vertical lines are drawn such that the two endpoints of line i is at (i, ai) and (i, 0). Find two lines, which together with x-axis forms a container, such that the container contains the most water.
+
+
