@@ -31,4 +31,6 @@ Container With Most Water
 Given n non-negative integers a1, a2, ..., an , where each represents a point at coordinate (i, ai). n vertical lines are drawn such that the two endpoints of line i is at (i, ai) and (i, 0). Find two lines, which together with x-axis forms a container, such that the container contains the most water.   
 
 Integer to Roman   
-Given an integer, convert it to a roman numeral. Input is guaranteed to be within the range from 1 to 3999.
+Given an integer, convert it to a roman numeral. Input is guaranteed to be within the range from 1 to 3999.   
+3sum   
+Given an array nums of n integers, are there elements a, b, c in nums such that a + b + c = 0? Find all unique triplets in the array which gives the sum of zero.
