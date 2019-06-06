@@ -33,4 +33,7 @@ Given n non-negative integers a1, a2, ..., an , where each represents a point at
 Integer to Roman   
 Given an integer, convert it to a roman numeral. Input is guaranteed to be within the range from 1 to 3999.   
 3sum   
-Given an array nums of n integers, are there elements a, b, c in nums such that a + b + c = 0? Find all unique triplets in the array which gives the sum of zero.
+Given an array nums of n integers, are there elements a, b, c in nums such that a + b + c = 0? Find all unique triplets in the array which gives the sum of zero.   
+   
+3sum closet   
+Given an array nums of n integers and an integer target, find three integers in nums such that the sum is closest to target. Return the sum of the three integers. You may assume that each input would have exactly one solution.
