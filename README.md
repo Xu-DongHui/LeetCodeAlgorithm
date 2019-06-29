@@ -48,4 +48,7 @@ Generate Parentheses
 Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.   
 
 Merge k Sorted Lists   
-Merge k sorted linked lists and return it as one sorted list. 
+Merge k sorted linked lists and return it as one sorted list.    
+
+Swap Nodes in Pairs   
+Given a linked list, swap every two adjacent nodes and return its head.
