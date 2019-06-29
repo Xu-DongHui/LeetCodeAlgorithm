@@ -45,4 +45,7 @@ Given a linked list, remove the n-th node from the end of list and return its he
 Given an array nums of n integers and an integer target, are there elements a, b, c, and d in nums such that a + b + c + d = target? Find all unique quadruplets in the array which gives the sum of target.   
 
 Generate Parentheses   
-Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
+Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.   
+
+Merge k Sorted Lists   
+Merge k sorted linked lists and return it as one sorted list. 
