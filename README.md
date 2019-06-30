@@ -51,4 +51,7 @@ Merge k Sorted Lists
 Merge k sorted linked lists and return it as one sorted list.    
 
 Swap Nodes in Pairs   
-Given a linked list, swap every two adjacent nodes and return its head.
+Given a linked list, swap every two adjacent nodes and return its head.   
+
+ Reverse Nodes in k-Group   
+ Given a linked list, reverse the nodes of a linked list k at a time and return its modified list.
