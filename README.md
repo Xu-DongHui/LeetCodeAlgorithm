@@ -57,4 +57,7 @@ Given a linked list, swap every two adjacent nodes and return its head.
  Given a linked list, reverse the nodes of a linked list k at a time and return its modified list.   
 
  Substring with Concatenation of All Words   
- You are given a string, s, and a list of words, words, that are all of the same length. Find all starting indices of substring(s) in s that is a concatenation of each word in words exactly once and without any intervening characters.
+ You are given a string, s, and a list of words, words, that are all of the same length. Find all starting indices of substring(s) in s that is a concatenation of each word in words exactly once and without any intervening characters.   
+
+ Longest Valid Parentheses   
+ Given a string containing just the characters '(' and ')', find the length of the longest valid (well-formed) parentheses substring.
