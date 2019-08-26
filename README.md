@@ -61,3 +61,12 @@ Given a linked list, swap every two adjacent nodes and return its head.
 
  Longest Valid Parentheses   
  Given a string containing just the characters '(' and ')', find the length of the longest valid (well-formed) parentheses substring.
+
+Next Permutation   
+Implement next permutation, which rearranges numbers into the lexicographically next greater permutation of numbers.
+
+Search in Rotated Sorted Array   
+Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.You are given a target value to search. If found in the array return its index, otherwise return -1.Your algorithm's runtime complexity must be in the order of O(log n).
+
+backtracking questions   
+https://leetcode.com/problems/combination-sum/discuss/16502/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partitioning)   
