@@ -70,3 +70,9 @@ Suppose an array sorted in ascending order is rotated at some pivot unknown to y
 
 backtracking questions   
 https://leetcode.com/problems/combination-sum/discuss/16502/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partitioning)   
+
+Multiply Strings   
+Given two non-negative integers num1 and num2 represented as strings, return the product of num1 and num2, also represented as a string.
+
+Wildcard Matching   
+Given an input string (s) and a pattern (p), implement wildcard pattern matching with support for '?' and '*'.
